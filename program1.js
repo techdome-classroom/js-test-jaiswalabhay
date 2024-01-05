@@ -2,8 +2,7 @@
  * @param {string} s
  * @return {boolean}
  */
-var isValid = function(s) {
-    class Stack {
+class Stack {
     constructor() {
         this.items = [];
     }
@@ -40,6 +39,8 @@ var isValid = function(s) {
         this.items = [];
     }
 }
+var isValid = function(s) {
+    
 
 let stack = new Stack();
     for (let i = 0; i < s.length; i++) {
